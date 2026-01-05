@@ -1,0 +1,50 @@
+
+
+.carousel-item {
+    background-size: cover;
+}
+
+.ad1 {
+    background: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWx8ZW58MHx8MHx8fDA%3D') no-repeat center center;
+    
+}
+
+.ad2 {
+    background: url('https://media.istockphoto.com/id/2223748059/photo/silhouette-of-a-man-walking-in-the-airport-as-the-plane-takes-off-during-sunset-3d.webp?a=1&b=1&s=612x612&w=0&k=20&c=h4LgcyPRKS5qFO39XZqXUAE5a-NlZIXoaYNx7keBgZw=') no-repeat center center;
+    
+}
+
+.ad3 {
+    background: url('https://images.unsplash.com/photo-1608841828390-a4eb54fb1987?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2t5c2NyYXBlcnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center;
+    
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        min-height: 12rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-item {
+        min-height: 17rem;
+    }
+}
+
+#newsletter-box {
+    
+    background: url('https://images.unsplash.com/photo-1601369434554-71291bd39188?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzl8fGliaXphfGVufDB8fDB8fHww') no-repeat center center;
+}
+
+.form-box {
+    width: 20rem;
+}
+
+footer a {
+    color: #aaaaab;
+}
+
+.blog-post img {
+    max-height: 420px;
+    object-fit: cover;
+}

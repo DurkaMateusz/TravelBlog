@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img width="30" height="30" src="https://cdn.pixabay.com/photo/2016/10/25/21/39/logo-1770072_640.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarmenu"><span class="navbar-toggler-icon"></span></button>
+            <div id="navbarmenu" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form action="" id="form1" class="d-flex">
+                   <input type="search" placeholder="Search..." id="search1" class="form-control"> 
+                   <button type="submit" class="btn btn-outline-success ms-2">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="topCarousel" data-bs-ride="carousel"
+        class="mt-3 carousel slide">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#topCarousel" data-bs-slide-to="0"
+                    class="active" aria-current="true"></button> <button type="button" data-bs-target="#topCarousel"
+                    data-bs-slide-to="1"></button> <button type="button" data-bs-target="#topCarousel"
+                    data-bs-slide-to="2"></button> </div>
+            <div class="carousel-inner">
+                <div class="carousel-item rounded ad1 active" data-bs-interval="2000">
+                    <div class="carousel-caption text-light">
+                        <h3>Where to go for summer?</h3>
+                    </div>
+                </div>
+                <div class="carousel-item rounded ad2" data-bs-interval="2000">
+                    <div class="carousel-caption text-light">
+                        <h4>How to organize travel?</h4>
+                        <p>Place, tickets, costs</p>
+                        <div class="data-caption">19 January</div>
+                    </div>
+                </div>
+                <div class="carousel-item rounded ad3" data-bs-interval="2000">
+                    <div class="carousel-caption text-light">
+                        <h4>City life?</h4>
+                        <p>Pros and cons</p>
+                        <div class="data-caption d-none d-sm-block">19 May</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#topCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#topCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span></button>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row mt-3">
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1643297500591-506d25d0da96?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHNwYWluJTIwNzI1eDQ4MHxlbnwwfHwwfHx8MA%3D%3D"
+                    class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card #1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, labore?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1723032266400-9cc19481b82c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBhcmslMjA3MjV4NDgwfGVufDB8fDB8fHww"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card #2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, labore?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1503863369250-3ab1905ea94a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXNsYW5kJTIwNzI1eDQ4MHxlbnwwfHwwfHx8MA%3D%3D"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card #3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, labore?</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mt-5 mb-5">
+                <div class="blog-post">
+                    <img src="https://images.unsplash.com/photo-1635607189257-82b12cc06473?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3Vuc2V0JTIwNzIweDQ4MHxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="sunset" class="rounded float-end w-50 ms-4 mb-4">
+                    <h2 class="blog-post-title">First post</h2>
+                    <p class="blog-post-date">10 January <a href="#">John Doe</a>
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid accusantium sapiente natus itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid accusantium sapiente natus itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid accusantium sapiente natus itaque.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="https://images.unsplash.com/photo-1564933170157-3af8ec882299?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29zdGElMjBicmF2YSUyMDcyMHg0ODB8ZW58MHx8MHx8fDA%3D"
+                        alt="costabrava" class="rounded float-end w-50 ms-4 mb-4">
+                    <h2 class="blog-post-title">Second post</h2>
+                    <p class="blog-post-date">11 February <a href="#">Anna An</a>
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid
+                        accusantium sapiente natus itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum earum, blanditiis tempora vitae optio,
+                        quaerat necessitatibus qui atque tempore molestias dolor magni quia laborum reiciendis eaque amet
+                        accusantium culpa in.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid
+                        accusantium sapiente natus itaque.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="https://images.unsplash.com/photo-1513648197777-861864c16509?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJpbyUyMGRlJTIwamFuZWlybyUyMDcyMHg0ODB8ZW58MHx8MHx8fDA%3D"
+                        alt="riodejaneiro" class="rounded float-end w-50 ms-4 mb-4">
+                    <h2 class="blog-post-title">Third post</h2>
+                    <p class="blog-post-date">4 April <a href="#">Filippe Fe</a>
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid
+                        accusantium sapiente natus itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid
+                        accusantium sapiente natus itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero qui suscipit porro vel in explicabo
+                        aliquid
+                        accusantium sapiente natus itaque.</p>
+                </div>
+                <nav class="mt-5">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a href="#" tabindex="-1" class="page-link">Prev</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link active">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">6</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">7</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <aside class="col-md-4 mt-5">
+                <div class="bg-light p-4 mb-3 rounded">
+                    <h4 class="font-italic">About</h4>
+                    <p>Blog Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem reiciendis est ad hic incidunt
+                        aut eaque aliquam tempora aperiam!</p>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-italic">Archive</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">December</a></li>
+                        <li><a href="#">November</a></li>
+                        <li><a href="#">October</a></li>
+                        <li><a href="#">September</a></li>
+                        <li><a href="#">August</a></li>
+                        <li><a href="#">July</a></li>
+                        <li><a href="#">June</a></li>
+                        <li><a href="#">May</a></li>
+                    </ol>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-italic">Category</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">Travels</a></li>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Coding</a></li>
+                        <li><a href="#">DIY</a></li>
+                    </ol>
+                </div>
+            </aside>
+        </div>
+        <div id="newsletter-box" class="rounded p-4 mb-3 bg-light">
+            <div class="d-flex justify-content-center align-content-center">
+                <div class="form-box">
+                    <form action="" novalidate class="row g-3 needs-validation">
+                        <div class="col-12">
+                            <input type="text" placeholder="Your email" id="emailInput" required class="form-control">
+                            <div class="valid-feedback">Email correct!</div>
+                            <div class="invalid-feedback">Required email!</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input type="checkbox" required class="form-check-input" id="agreement">
+                                <label for="agreement" class="form-check-label">I agree with the terms and conditions.</label>
+                                <div class="invalid-feedback">Required tick!</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary btn-block w-100" type="submit">Sign me up for the newsletter.</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <div class="border rounded row g-0 overflow-hidden shadow-sm position-relative">
+                    <div class="col p-4 d-flex flex-column">
+                        <strong class="mb-2 text-primary">Islands</strong>
+                        <h3>Trip</h3>
+                        <div class="mb-1 text-muted">Dec 1</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, architecto earum? Iure, id necessitatibus. Repudiandae?</p>
+                        <a href="#" class="stretched-link">Read more</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img width="200" height="250" src="https://images.unsplash.com/photo-1714721100679-c5796bf32186?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHBvcnR1Z2FsJTIwMzIweDQ4MHxlbnwwfHwwfHx8MA%3D%3D" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="border rounded row g-0 overflow-hidden shadow-sm-position-relative">
+                    <div class="col p-4 d-flex flex-column position-relative">
+                        <strong class="mb-2 text-primary">Senegal</strong>
+                        <h3>Trip</h3>
+                        <div class="mb-1 text-muted">May 3</div>
+                        <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, architecto
+                            earum? Iure, id necessitatibus. Repudiandae?</p>
+                        <a href="#" class="stretched-link">Read more</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img width="200" height="250"
+                            src="https://images.unsplash.com/photo-1629300678017-eb3cb4eb4b77?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2VuZWdhbCUyMDMyMHg0ODB8ZW58MHx8MHx8fDA%3D"
+                            alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="text-light bg-dark mt-3">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h5>Olo's traveling blog</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores maiores quam suscipit officia saepe.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Tos</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <h5>Contact</h5>
+                    <p>
+                        <a href="mailto:admin@example.com">admin@example.com</a>
+                    </p>
+                    <p>10 Kwietnia 4</p>
+                    <p>00-001 Warszawa</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Copyright by Blog. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
